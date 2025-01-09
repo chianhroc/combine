@@ -8,6 +8,8 @@ import openpyxl
 from datetime import datetime
 
 # 清理非法字符的函数
+
+# @st.cache
 def clean_illegal_characters(value):
     """
     清理非法字符
